@@ -6,9 +6,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(fmt CONFIG REQUIRED)
-    
-
-
 add_executable(vcpkg_2 main.cpp)
-
 target_link_libraries(vcpkg_2 PRIVATE fmt::fmt)
